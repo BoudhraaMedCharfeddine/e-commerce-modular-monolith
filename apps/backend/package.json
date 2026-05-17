@@ -1,0 +1,8 @@
+{
+  "name": "@ecommerce/backend",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "ts-node -P tsconfig.json src/main.ts",
+    "dev:watch": "nodemon --exec ts-node -P tsconfig.json src/main.ts --ext ts"
+  }
+}
